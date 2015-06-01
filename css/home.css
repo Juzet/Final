@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700italic);
+body {
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSh48WtXJ35Nj4tlsuxmkmjZGMpWWoF99nWQT_77BpWXtCamWYaAg");
+
+}
+header {
+  width: 100%;
+  padding-top: 10px;
+  transition: 0.7s all;
+  z-index: 100;
+  opacity: 0.6;
+}
+nav li {
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Slabo 27px', serif;
+  float: left;
+  color: black;
+}
+
+nav a:hover {
+  background: white;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  border-radius: 25px;
+}
+#juzet {
+  font-family: 'Playfair Display', serif;
+  padding-top: 15%;
+  text-align: center;
+  font-size: 130px;
+}
