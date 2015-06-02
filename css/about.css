@@ -1,4 +1,7 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700italic);
 a {
   text-decoration: none;
   font-size: 30px;
@@ -39,11 +42,8 @@ body * {
   }
 
 body {
-  background-image:
-    linear-gradient(
-      hsl(240,20%,20%),
-      hsl(30,30%,40%)
-      );
+  background-color: #eee;
+  /*background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSh48WtXJ35Nj4tlsuxmkmjZGMpWWoF99nWQT_77BpWXtCamWYaAg");*/
   color: #222;
   font-family: 'Gabriela', serif;
   perspective: 70em;/*in your face*/
@@ -59,19 +59,14 @@ h1, p {
   max-height: 800px;
   min-height: 500px;
   width: 1000px;
-  background-image: 
-    linear-gradient(
-      90deg,
-      hsla(30,40%,50%,.6),
-      hsla(30,40%,20%,.9),
-      hsla(30,40%,50%,.4) 90%
-      ),
-    url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSh48WtXJ35Nj4tlsuxmkmjZGMpWWoF99nWQT_77BpWXtCamWYaAg');
+  background-color: white;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   margin: auto;
-  
-  border: 10px solid hsla(30,10%,30%,1);
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ6Yxq0JGnAPw_y_QnpMZweiI2cjhtxjIJCXwf-6XBa6G61wYuJ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 10px solid black;
   border-radius: 5px;
   box-shadow: 0 0 150px hsla(170,0%,0%,.4);
   }
@@ -89,9 +84,8 @@ h1, p {
   [class*='side'] {
     height: 100%;
     width: 100%;
-    position: absolute;
-    background-color: violet;
     background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSh48WtXJ35Nj4tlsuxmkmjZGMpWWoF99nWQT_77BpWXtCamWYaAg");
+    position: absolute;
     background-size: 100% 100%;
     backface-visibility: hidden;
     overflow: auto;
@@ -103,7 +97,6 @@ h1, p {
     transition: .5s;
     }
   .side-2 {
-    background-color: lightgreen;
     transform:
       rotateY(180deg);
     box-shadow: inset -50px 0 50px rgba(0,0,0,.5);

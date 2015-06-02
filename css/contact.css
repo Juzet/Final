@@ -125,3 +125,29 @@ img:hover {
    -ms-filter:contrast(100%);
    -o-filter: contrast(100%);
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+  body {
+    background-color: lightgray;
+     padding-top: 15%;
+  }
+  h1 {
+  text-align: center;
+   font-family: 'Slabo 27px', serif;
+  font-size: 100px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  width: cover;
+  padding-bottom: 20px;
+}
+  ul {
+  list-style: none;
+  padding-top: 10%;
+  padding-left: 20%;
+}
+  nav a {
+
+    font-size: 45px;
+    text-align: center;
+    padding-left: 4%;
+  }
+}
