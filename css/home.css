@@ -25,16 +25,15 @@ a:hover {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
   body {
     background-color: lightgray;
-     padding-top: 15%;
+     padding-top: 5%;
   }
   #juzet {
     padding-top: 60%;
     text-align: center;
   }
   nav a {
-
     font-size: 45px;
     text-align: center;
-    padding-left: 4%;
+    padding-left: 5%;
   }
 }

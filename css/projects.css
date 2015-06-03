@@ -28,3 +28,18 @@ div {
   display: inline-block;
   margin-left: 10px;
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+  body {
+    background-color: lightgray;
+    padding-top: 4%;
+  }
+  img {
+    display: inline-block;
+    margin: 30px;
+
+  }
+  a {
+    font-size: 50px;
+    padding-left: 30px;
+  }
+}
